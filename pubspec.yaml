@@ -1,0 +1,36 @@
+name: tsafira
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^9.1.0
+  flutter_staggered_grid_view: ^0.4.0
+  google_fonts: ^2.1.0
+  intl: ^0.17.0
+  get: 4.3.0
+  sizer: ^2.0.13
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/product/
+    - assets/images/icon/
+    - ../
